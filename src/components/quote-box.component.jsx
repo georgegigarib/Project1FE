@@ -13,7 +13,7 @@ const Quotebox = ({quotes, getQuote}) => {
             <div id="author">
             -{author}
             </div>
-            <a title="Tweet this quote!" href={window.location =`twitter.com/intent/tweet?hashtags=quotes&text=${quote}`} id="tweet-quote" target="_top"><FaTwitter /></a>
+            <a title="Tweet this quote!" href={`twitter.com/intent/tweet?hashtags=quotes&text=${quote}`} id="tweet-quote" target="_top"><FaTwitter /></a>
             <button id="new-quote" onClick={getQuote}>New Quote</button>
           </div>
           </div>
