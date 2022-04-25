@@ -1,0 +1,71 @@
+div {
+    position: relative;
+    z-index: 2;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    vertical-align: baseline;
+}
+#quote-box {
+    border-radius: 3px;
+    position: relative;
+    width: 450px;
+    padding: 40px 50px;
+    display: table;
+    background-color: #fff;
+    color: black;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+}
+
+#quote-box #text {
+    text-align: center;
+    width: 450px;
+    height: auto;
+    clear: both;
+    font-weight: 500;
+    font-size: 1em;
+}
+
+#quote-box #author {
+    width: 450px;
+    height: auto;
+    clear: both;
+    padding-top: 20px;
+    font-size: 0.7em;
+    text-align: right;
+    font-style: italic;
+}
+
+#quote-box #tweet-quote {
+    float: left;
+    padding: 0px;
+    padding-top: 8px;
+    text-align: center;
+    font-size: 1em;
+    margin-right: 5px;
+    height: 30px;
+    width: 40px;
+    background-color: rgba(0, 196, 231, 0.434);
+    border-radius: 5px;
+}
+
+
+
+#new-quote {
+    height: 38px;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    background-color: rgb(108, 108, 108);
+    outline: none;
+    font-size: 0.65em;
+    padding: 8px 18px 6px 18px;
+    margin-top: 50px;
+    opacity: 1;
+    cursor: pointer;
+    align-self: flex-end;
+}
